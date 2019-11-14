@@ -1,3 +1,4 @@
+import cocktail from '@/store/modules/cocktail.ts';
 import Vue from 'vue';
 import Vuex from 'vuex';
 
@@ -11,5 +12,6 @@ export default new Vuex.Store({
   actions: {
   },
   modules: {
+    cocktail,
   },
 });
