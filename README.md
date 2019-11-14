@@ -1,29 +1,12 @@
 # cocktails
 
-## Project setup
+
+## Installer les dépendances
 ```
-yarn install
+npm install
 ```
 
-### Compiles and hot-reloads for development
+### Test du projet en mode développement :
 ```
-yarn run serve
+npm run serve
 ```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
