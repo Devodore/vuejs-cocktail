@@ -1,7 +1,7 @@
 <template>
     <form @submit.prevent="cocktailList()">
-        <input type="text" placeholder="Rechercher par ingrédient" v-model="ingredient"/>
-        <input type="submit" value="Rechercher"/>
+        <input type="text" placeholder="Rechercher par ingrédient" v-model="ingredient" class="searchInput"/>
+        <input type="submit" value="Rechercher" class="searchSubmit"/>
         <li v-for="cocktail in cocktails" :key="cocktail.id">
             <!--<p>{{cocktail.id}}</p>-->
             <div class="card">
